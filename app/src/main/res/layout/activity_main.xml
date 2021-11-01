@@ -7,11 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        andorid:loyout_width="wrap_content"
-        android:loyout_twight="wrap_content"
-        android:text-""
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="0dp"
