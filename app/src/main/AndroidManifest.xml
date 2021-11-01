@@ -8,12 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:theme="@style/AppTheme">
-=======
-        android:theme="@style/MyTheme.DayNight"
-        tools:ignore="GoogleAppladeIndexingWarnig">
->>>>>>> 0b756ea0d8cc067870aeb7b794adc4e1ba579942
         <activity
             android:name=".StaticActivity"
             android:label="@string/title_activity_static"
