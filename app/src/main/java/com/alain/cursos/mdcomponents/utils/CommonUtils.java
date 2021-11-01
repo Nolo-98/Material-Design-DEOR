@@ -11,12 +11,16 @@ package com.alain.cursos.mdcomponents.utils;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+<<<<<<< HEAD
 import com.alain.cursos.mdcomponents.fragments.BottomFragment;
 import com.alain.cursos.mdcomponents.fragments.BottomNavigationBarFragment;
 import com.alain.cursos.mdcomponents.fragments.CheckboxFragment;
 import com.alain.cursos.mdcomponents.fragments.FloatingActionBottomFragment;
 import com.alain.cursos.mdcomponents.fragments.SnackBarFragment;
 import com.alain.cursos.mdcomponents.fragments.TextFieldFragment;
+=======
+import com.alain.cursos.mdcomponents.ButtonFragment;
+>>>>>>> 0b756ea0d8cc067870aeb7b794adc4e1ba579942
 
 public class CommonUtils {
 
@@ -32,6 +36,7 @@ public class CommonUtils {
 
         switch (nameFragment){
             //SCROLL
+<<<<<<< HEAD
             case BottomFragment.TAG:
                 fragment = new BottomFragment();
                 break;
@@ -53,6 +58,13 @@ public class CommonUtils {
             case FloatingActionBottomFragment.TAG:
                 fragment = new FloatingActionBottomFragment();
                 break;
+=======
+            case ButtonFragment.TAG:
+                fragment = new ButtonFragment();
+                break;
+
+            //STATIC
+>>>>>>> 0b756ea0d8cc067870aeb7b794adc4e1ba579942
         }
 
         return fragment;
